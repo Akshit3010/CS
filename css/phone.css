@@ -1,0 +1,746 @@
+                     @media only screen and (max-width: 922px) {
+                         .header1 ul {
+                             position: absolute;
+                             top: 0px;
+                             left: 0;
+                             width: 100%;
+                             height: fit-content;
+                             padding: 50px 100px;
+                             text-align: center;
+                             overflow: auto;
+                             opacity: 0;
+                             transition: 0.5s;
+                             background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+                             flex-direction: column;
+                             transform: translateY(-130%);
+                         }
+                         .header1.active ul {
+                             opacity: 1;
+                             top: 0px;
+                             transform: translateY(0);
+							  overflow: hidden;
+							   height: fit-content;
+                         }
+                         .header1 ul li {
+                             margin: 5px 0;
+                             font-size: 24px;
+                         }
+                         .navi ul li a {
+                             padding: 7px 0px;
+                         }
+                         .toggle {
+                             display: block;
+                             position: relative;
+                             width: 30px;
+                             height: 30px;
+                             cursor: pointer;
+                         }
+                         .toggle:before {
+                             content: '';
+                             position: absolute;
+                             top: 13px;
+                             left: 30px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             box-shadow: 0 10px 0 #fff;
+                             transition: .5s;
+                         }
+                         .toggle:after {
+                             content: '';
+                             position: absolute;
+                             bottom: -5px;
+                             left: 30px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             transition: .5s;
+                         }
+                         .header1.active .toggle::before {
+                             top: 14px;
+                             transform: rotate(45deg);
+                             box-shadow: 0 0 0 #fff;
+                         }
+                         .header1.active .toggle::after {
+                             bottom: 14px;
+                             transform: rotate(-45deg);
+                         }
+                         .container1 .logo img {
+                             display: none;
+                         }
+                         .container1 .name {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: auto;
+                             height: auto;
+                         }
+                         .h-primary {
+                             text-align: left;
+                             height: auto;
+                             width: auto;
+                         }
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 343px;
+                         }
+                         .bg-image img {
+                             width: 100%;
+                             height: 100%;
+                             opacity: 0.9;
+                             filter: contrast(150%) brightness(50%);
+                         }
+                         .content {
+                             position: absolute;
+                             padding: 20px;
+                             margin: auto;
+                             color: #f1f1f1;
+                         }
+                         .content h3 {
+                             font-size: 2rem;
+                             text-align: center;
+                             text-shadow: 2px 2px 2px black;
+                         }
+                         .bx-wrapper .bx-pager {
+                             display: none;
+                         }
+                         .join {
+                             margin-top: 4px;
+                         }
+                         .join ::before {
+                             display: none;
+                         }
+                         .join h1 {
+                             font-size: 2rem;
+                         }
+                         .join p {
+                             font-size: 1.6rem;
+                         }
+                         .textarea {
+                             background: #1c1c1d;
+                             padding: 24px 60px;
+                         }
+                         section#about-us {
+                             height: 1445px;
+                         }
+                         #about-us .container .row {
+                             display: -ms-flexbox;
+                             display: flex;
+                             -ms-flex-wrap: wrap;
+                             flex-wrap: wrap;
+                             margin-right: -15px;
+                             margin-left: -15px;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             width: auto;
+                         }
+                         #about-us .carousel-inner {
+                             position: relative;
+                             width: 100%;
+                             height: 1162px;
+                             overflow: hidden;
+                         }
+                     }
+                     
+                     @media only screen and (min-width: 923px) and (max-width:1266px) {
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 517px;
+                         }
+                         .header1 ul {
+                             position: absolute;
+                             top: 0px;
+                             left: 0;
+                             width: 100%;
+                             height: 300px;
+                             padding: 50px 100px;
+                             text-align: center;
+                             overflow: auto;
+                             opacity: 0;
+                             transition: 0.5s;
+                             background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+                             flex-direction: column;
+                             transform: translateY(-130%);
+                         }
+                         .header1.active ul {
+                             opacity: 1;
+                             top: 0px;
+                             transform: translateY(0);
+                         }
+                         .header1 ul li {
+                             margin: 5px 0;
+                             font-size: 24px;
+                         }
+                         .navi ul li a {
+                             padding: 7px 0px;
+                         }
+                         .toggle {
+                             display: block;
+                             position: relative;
+                             width: 34px;
+                             height: 30px;
+                             cursor: pointer;
+                         }
+                         .toggle:before {
+                             content: '';
+                             position: absolute;
+                             top: 13px;
+                             left: 30px;
+                             width: 100%;
+                             height: 2px;
+                             cursor: pointer;
+                             background: #fff;
+                             z-index: 1;
+                             box-shadow: 0 10px 0 #fff;
+                             transition: .5s;
+                         }
+                         .toggle:after {
+                             content: '';
+                             position: absolute;
+                             bottom: -5px;
+                             left: 30px;
+                             cursor: pointer;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             transition: .5s;
+                         }
+                         .header1.active .toggle::before {
+                             top: 14px;
+                             transform: rotate(45deg);
+                             box-shadow: 0 0 0 #fff;
+                         }
+                         .header1.active .toggle::after {
+                             bottom: 14px;
+                             transform: rotate(-45deg);
+                         }
+                         .container1 .logo img {
+                             display: none;
+                         }
+                         .container1 .name {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: auto;
+                             height: auto;
+                         }
+                         .h-primary {
+                             text-align: left;
+                             height: auto;
+                             width: auto;
+                         }
+                         .join {
+                             margin-top: 10px;
+                             height: fit-content;
+                         }
+                         .join ::before {
+                             display: none;
+                         }
+                         .join h1 {
+                             font-size: 2.2rem;
+                         }
+                         .join p {
+                             font-size: 2rem;
+                         }
+                         .textarea {
+                             background: #1c1c1d;
+                             padding: 34px 65px;
+                         }
+                         section#about-us {
+                             height: 965px;
+                         }
+                         #about-us .container .row {
+                             display: -ms-flexbox;
+                             display: flex;
+                             -ms-flex-wrap: wrap;
+                             flex-wrap: wrap;
+                             margin-right: -15px;
+                             margin-left: -15px;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             width: auto;
+                         }
+                         #about-us .carousel-inner {
+                             position: relative;
+                             width: 100%;
+                             height: 745px;
+                             overflow: hidden;
+                         }
+                     }
+                     
+                     @media only screen and (max-width:767px) {
+                         .header1 ul {
+                             position: absolute;
+                             top: 0px;
+                             left: 0;
+                             width: 100%;
+                             height: 300px;
+                             padding: 50px 100px;
+                             text-align: center;
+                             overflow: auto;
+                             opacity: 0;
+                             transition: 0.5s;
+                             background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+                             flex-direction: column;
+                             transform: translateY(-130%);
+                         }
+                         .header1.active ul {
+                             opacity: 1;
+                             top: 0px;
+                             transform: translateY(0);
+                         }
+                         .header1 ul li {
+                             margin: 5px 0;
+                             font-size: 24px;
+                         }
+                         .navi ul li a {
+                             padding: 7px 0px;
+                         }
+                         .toggle {
+                             display: inline-block;
+                             position: relative;
+                             width: 30px;
+                             height: 23px;
+                             cursor: pointer;
+                             /* background: red; */
+                             transform: translate(20px, 12px);
+                         }
+                         .toggle:before {
+                             content: '';
+                             position: absolute;
+                             top: 0px;
+                             left: 0px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             box-shadow: 0 10px 0 #fff;
+                             transition: .5s;
+                         }
+                         .toggle:after {
+                             content: '';
+                             position: absolute;
+                             bottom: 0px;
+                             left: 0px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             transition: .5s;
+                         }
+                         .header1.active .toggle::before {
+                             top: 14px;
+                             transform: rotate(45deg);
+                             box-shadow: 0 0 0 #fff;
+                         }
+                         .header1.active .toggle::after {
+                             bottom: 7px;
+                             transform: rotate(-45deg);
+                         }
+                         .container1 .logo img {
+                             display: none;
+                         }
+                         .container1 .name {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: auto;
+                             height: auto;
+                         }
+                         .h-primary {
+                             text-align: left;
+                             height: auto;
+                             width: auto;
+                         }
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 241px;
+                         }
+                         .bg-image img {
+                             width: 100%;
+                             height: 100%;
+                             opacity: 0.9;
+                             filter: contrast(150%) brightness(50%);
+                         }
+                         .content {
+                             position: absolute;
+                             padding: 20px;
+                             margin: auto;
+                             color: #f1f1f1;
+                         }
+                         .content h3 {
+                             font-size: 2rem;
+                             text-align: center;
+                             text-shadow: 2px 2px 2px black;
+                         }
+                         .bx-wrapper .bx-pager {
+                             display: none;
+                         }
+                         .join {
+                             margin-top: 4px;
+                             height: fit-content;
+                         }
+                         .join ::before {
+                             display: none;
+                         }
+                         .join h1 {
+                             font-size: 2rem;
+                         }
+                         .join p {
+                             font-size: 1.2rem;
+                         }
+                         .textarea {
+                             background: #1c1c1d;
+                             padding: 24px 40px;
+                         }
+                         section#about-us {
+                             height: 1767px;
+                         }
+                         #about-us .container .row {
+                             display: -ms-flexbox;
+                             display: flex;
+                             -ms-flex-wrap: wrap;
+                             flex-wrap: wrap;
+                             margin-right: -15px;
+                             margin-left: -15px;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             width: auto;
+                         }
+                         #about-us .carousel-inner {
+                             position: relative;
+                             width: 100%;
+                             height: 1496px;
+                             overflow: hidden;
+                         }
+                         .carousel-control-prev-icon {
+                             display: none;
+                         }
+                         .carousel-control-next-icon {
+                             display: none;
+                         }
+						 #about-us .carousel-indicators {
+							display:none;
+							}
+                     }
+                     
+                     @media only screen and (max-width:320px) {
+                         .header1 ul {
+                             position: absolute;
+                             top: 0px;
+                             left: 0;
+                             width: 100%;
+                             height: 300px;
+                             padding: 50px 100px;
+                             text-align: center;
+                             overflow: auto;
+                             opacity: 0;
+                             transition: 0.5s;
+                             background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+                             flex-direction: column;
+                             transform: translateY(-130%);
+                         }
+                         .header1.active ul {
+                             opacity: 1;
+                             top: 0px;
+                             transform: translateY(0);
+                         }
+                         .header1 ul li {
+                             margin: 5px 0;
+                             font-size: 24px;
+                         }
+                         .navi ul li a {
+                             padding: 7px 0px;
+                         }
+                         .toggle {
+                             display: block;
+                             position: relative;
+                             width: 30px;
+                             height: 30px;
+                             cursor: pointer;
+                         }
+                         .toggle:before {
+                             content: '';
+                             position: absolute;
+                             top: 13px;
+                             left: 30px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             box-shadow: 0 10px 0 #fff;
+                             transition: .5s;
+                         }
+                         .toggle:after {
+                             content: '';
+                             position: absolute;
+                             bottom: -5px;
+                             left: 30px;
+                             width: 100%;
+                             height: 2px;
+                             background: #fff;
+                             z-index: 1;
+                             transition: .5s;
+                         }
+                         .header1.active .toggle::before {
+                             top: 14px;
+                             transform: rotate(45deg);
+                             box-shadow: 0 0 0 #fff;
+                         }
+                         .header1.active .toggle::after {
+                             bottom: 14px;
+                             transform: rotate(-45deg);
+                         }
+                         .container1 .logo img {
+                             display: none;
+                         }
+                         .container1 .name {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: auto;
+                             height: auto;
+                         }
+                         .h-primary {
+                             text-align: left;
+                             height: auto;
+                             width: auto;
+                         }
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 210px;
+                         }
+                         .bg-image img {
+                             width: 100%;
+                             height: 100%;
+                             opacity: 0.9;
+                             filter: contrast(150%) brightness(50%);
+                         }
+                         .content {
+                             position: absolute;
+                             padding: 20px;
+                             top: 15px;
+                             margin: auto;
+                             color: #f1f1f1;
+                         }
+                         .content h3 {
+                             font-size: 1.6rem;
+                             text-align: center;
+                             text-shadow: 2px 2px 2px black;
+                         }
+                         .bx-wrapper .bx-pager {
+                             display: none;
+                         }
+                         .join {
+                             margin-top: 4px;
+                         }
+                         .join ::before {
+                             display: none;
+                         }
+                         .join h1 {
+                             font-size: 2rem;
+                         }
+                         .join p {
+                             font-size: 1.1rem;
+                         }
+                         .textarea {
+                             background: #1c1c1d;
+                             padding: 24px 20px;
+                         }
+                         section#about-us {
+                             height: 1890px;
+                         }
+                         #about-us .container .row {
+                             display: -ms-flexbox;
+                             display: flex;
+                             -ms-flex-wrap: wrap;
+                             flex-wrap: wrap;
+                             margin-right: -15px;
+                             margin-left: -15px;
+                             padding-left: 10px;
+                             padding-right: 10px;
+                             width: auto;
+                         }
+                         #about-us .carousel-inner {
+                             position: relative;
+                             width: 100%;
+                             height: 1621px;
+                             overflow: hidden;
+                         }
+                         .carousel-control-prev-icon {
+                             display: none;
+                         }
+                         .carousel-control-next-icon {
+                             display: none;
+                         }
+						 #about-us .carousel-indicators {
+							display:none;
+							}
+                     }
+                     
+                     @media only screen and (max-width:647px) {
+                         .header1 ul li {
+                             margin: 5px 0;
+                             font-size: 20px;
+                         }
+                         #search {
+                             display: none;
+                         }
+                         .fa-search {
+                             display: none;
+                         }
+                         .h-primary {
+                             text-align: center;
+                             width: 100%;
+                         }
+                         .h-secondary {
+                             font-size: 1.8rem;
+                             text-align: center;
+                         }
+						 #about-us .carousel-indicators {
+							display:none;
+							}
+                     }
+					 
+					  @media only screen and (max-width:280px) {
+						  .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                            
+                         } 
+						 .toggle:before {
+							content: '';
+							position: absolute;
+								top: 4px;
+							left: 0px;
+							width: 100%;
+							height: 2px;
+							background: #fff;
+							z-index: 1;
+							box-shadow: 0 10px 0 #fff;
+							transition: .5s;
+						}
+							.toggle:after {
+								content: '';
+								position: absolute;
+								bottom: 5px;
+								left: 0px;
+								width: 100%;
+								height: 2px;
+								background: #fff;
+							z-index: 1;
+							transition: .5s;
+						}
+						 .container1 .logo img {
+                             display: none;
+                         }
+                         .container1 .name {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: auto;
+                             height: auto;
+                         }
+                         .h-primary {
+                             text-align: center;
+                             height: auto;
+                             width: auto;
+                         }
+						 .h-secondary {
+							font-size: 1.5rem;
+							text-align: center;
+						}
+						  section#about-us {
+							height: 2086px;
+						}
+                       
+						#about-us .carousel-inner {
+                             position: relative;
+                             width: 100%;
+                             height: 1826px;
+                             overflow: hidden;
+                         }
+						#about-us .carousel-indicators {
+							display:none;
+							}
+							.team-coverflow {
+								position: relative;
+								overflow: auto; 
+								padding: 0; 
+								margin-left: 0px; 
+								background-color: white;
+							}
+							.team-img img {
+								vertical-align: unset;
+								width: 300px;
+								height: 300px;
+								border-style: none;
+							}
+					  }
+					  
+                     
+                     @media only screen and (min-width: 1340px) and (max-width:1851px) {
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 800px;
+                         }
+                     }
+                     
+                     @media only screen and (min-width: 1852px) and (max-width:2560px) {
+                         .header {
+                             position: relative;
+                             width: auto;
+                             overflow: hidden;
+                             margin-top: 3px;
+                             height: 1289px;
+                         }
+                         .content {
+                             position: absolute;
+                             top: 24%;
+                             left: 0;
+                             padding: 68px;
+                             color: #f1f1f1;
+                             width: 100%;
+                             text-align: center;
+                         }
+                         .content h3 {
+                             font-size: 7.6rem;
+                             text-align: center;
+                             text-shadow: 2px 2px 2px black;
+                         }
+                         .join h1 {
+                             font-size: 5rem;
+                         }
+                         .join p {
+                             font-size: 3.1rem;
+                         }
+                         .join {
+                             margin-top: 4px;
+                             height: fit-content;
+                         }
+                         .join .butn {
+                             font-size: 4rem;
+                             padding: 8px 30px;
+                             margin-top: 5px;
+                         }
+                     }
