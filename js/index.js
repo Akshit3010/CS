@@ -43,7 +43,7 @@ $(document).ready(function() {
         })
     }
 
-    $("#work").magnificPopup({
+    $("#gallery").magnificPopup({
         delegate: 'a',
         type: 'image',
         gallery: {
