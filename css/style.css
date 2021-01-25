@@ -34,8 +34,9 @@
 .container1 .logo img {
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 29px;
     margin-left: 45px;
+	height:40px;
 }
 
 .container1 .name {
