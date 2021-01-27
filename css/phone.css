@@ -423,7 +423,7 @@
                              padding: 24px 40px;
                          }
                          section#about-us {
-                             height: 1767px;
+                             height: 2040px;
                          }
                          #about-us .container .row {
                              display: -ms-flexbox;
@@ -439,7 +439,7 @@
                          #about-us .carousel-inner {
                              position: relative;
                              width: 100%;
-                             height: 1496px;
+                             height: 1729px;
                              overflow: hidden;
                          }
                          .carousel-control-prev-icon {
